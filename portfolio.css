@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: purple;
+    color: ghostwhite;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: 1.25em;
+    background-color: gray;
+    color: ghostwhite;
+    padding: 0.25em;
+}
+#links {
+    float: right;
+}
+a:link, a:visited {
+    color: ghostwhite;
+    text-decoration: none;
+    padding: 0.25em;
+}
+.nav_link:hover, .nav_link:active {
+    background-color:purple;
+}
+header, h3, .development, .project_names, #button {
+    text-align: center;
+}
+#work, #projects, #introduction, h1, h2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.development, .project_names {
+    border: 0.1em solid;
+    border-radius: 1em;
+    background-color: #505050;
+    border-color: black;
+    color: ghostwhite;
+}
+.development {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.project_names {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.placeholder_text {
+    border-top: 0.1em solid;
+}
+.placeholder_text, .project_desc {
+    text-align: justify;
+    padding: 0.25em;
+}
+img {
+    display: block;
+    width: 100%;
+    border-top:0.1em solid;
+    border-bottom:0.1em solid;
+}
+#introduction, #project_label {
+    background-color: antiquewhite;
+    border-color: gray;
+    border: 0.15em solid;
+    border-radius: 1em;
+}
+#introduction {
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 1em;
+}
+#project_label {
+    margin-right: 40%;
+    margin-left: 40%;
+}
+footer {
+    background-color: gray;
+    color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+td, table, button {
+    padding: 0.25em;
+    width: 50%;
+    border-radius: 1em;
+}
+textarea, input {
+    width: 100%;
+    border-radius: 0.5em;
+    padding: 0.1em;
+    resize: none;
+}
+ul {
+    list-style-type: none;
+    background-color: darkgray;
+    width: 25%;
+}
+li {
+    display: block;
+    padding: 0.25em;
+}
+li:hover {
+    background-color: gray;
+}
+hr {
+    border: 0.5em solid gray;
+}
+#p_whole {
+    margin-top: 1em;
+}
