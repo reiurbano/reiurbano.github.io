@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 * {
-    font-family: 'Roboto', 'sans-serif';
+    font-family:'Noto Serif', serif;
     margin: 0;
     padding: 0;
 }
-h1, h2 {
+
+h1,
+h2 {
     padding: 1em;
     text-align: center;
     background-color: purple;
     color: ghostwhite;
 }
+
 nav {
     display: flex;
     position: sticky;
@@ -21,20 +25,27 @@ nav {
     background-color: gray;
     color: ghostwhite;
 }
+
 nav i {
     margin-right: auto;
     padding: 0.25em;
 }
-nav a:link, nav a:visited {
+
+nav a:link,
+nav a:visited {
     text-decoration: none;
     padding: 0.25em;
     border-left: 0.1em solid;
     color: ghostwhite;
 }
-nav a:hover, nav a:active {
-    background-color:purple;
+
+nav a:hover,
+nav a:active {
+    background-color: purple;
 }
-#flex-1, #flex-2 {
+
+#flex-1,
+#flex-2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -42,6 +53,7 @@ nav a:hover, nav a:active {
     text-align: center;
     padding-top: 2em;
 }
+
 #flex-1 h3 {
     width: 50%;
     margin-right: 25%;
@@ -52,6 +64,7 @@ nav a:hover, nav a:active {
     border-color: gray;
     background-color: antiquewhite;
 }
+
 #flex-2 h3 {
     width: 20%;
     margin-right: 40%;
@@ -62,6 +75,7 @@ nav a:hover, nav a:active {
     border-color: gray;
     background-color: antiquewhite;
 }
+
 .flex-item {
     width: 25%;
     margin: 2em;
@@ -71,23 +85,29 @@ nav a:hover, nav a:active {
     color: ghostwhite;
     background-color: rgb(64, 64, 64);
 }
-.desc-1, .desc-2 {
+
+.desc-1,
+.desc-2 {
     padding: 0.5em;
     text-align: justify;
 }
+
 .desc-1 {
     border-top: 0.1em solid;
 }
+
 hr {
     border: 0.5em solid;
     border-color: gray;
 }
+
 img {
     width: 100%;
     border-top: 0.1em solid;
     border-bottom: 0.1em solid;
     border-color: ghostwhite;
 }
+
 footer {
     background-color: gray;
     color: ghostwhite;
@@ -95,35 +115,46 @@ footer {
     justify-content: space-around;
     padding: 2em;
 }
-td, table, button {
+
+td,
+table,
+button {
     padding: 0.25em;
     width: 50%;
     border-radius: 1em;
 }
-textarea, input {
+
+textarea,
+input {
     width: 100%;
     border-radius: 0.5em;
     padding: 0.1em;
     resize: none;
 }
+
 #button {
     text-align: center;
 }
+
 ul {
     list-style-type: none;
     background-color: darkgray;
     border-radius: 0.5em;
     width: 20%;
 }
+
 li {
     display: block;
     padding: 0.25em;
 }
-li a:link, li a:visited {
+
+li a:link,
+li a:visited {
     text-decoration: none;
     padding: 0.25em;
     color: ghostwhite;
 }
+
 li:hover {
     background-color: gray;
 }
