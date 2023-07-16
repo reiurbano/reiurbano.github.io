@@ -1,17 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: "Noto Serif", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1,
-h2 {
-    padding: 1em;
-    text-align: center;
-    background-color: purple;
-    color: ghostwhite;
+header {
+    background: linear-gradient(30deg, #E1E1E1, #9E0F9E, #E7C160, #393939);
+    background-size: 320% 320%;
+    animation: gradient 16s ease infinite;
+    min-height: 8rem;
+    max-height: 8rem;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 nav {
@@ -19,29 +35,34 @@ nav {
     position: sticky;
     top: 0;
     font-size: 1.25em;
-    border-top: 0.1em solid;
-    justify-content: flex-end;
+    border-top: 0.05em solid;
+    justify-content: space-between;
     align-items: center;
-    background-color: gray;
-    color: ghostwhite;
+    background-color: #393939;
+    color: #FFFFFF;
 }
 
-nav i {
-    margin-right: auto;
-    padding: 0.25em;
+a img {
+    max-width: 1.25rem;
+    border-left: 0;
+}
+
+i {
+    color: #FFFFFF;
 }
 
 nav a:link,
 nav a:visited {
     text-decoration: none;
-    padding: 0.25em;
+    padding: 0.5em;
     border-left: 0.1em solid;
-    color: ghostwhite;
+    color: #FFFFFF;
 }
 
 nav a:hover,
 nav a:active {
-    background-color: purple;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 #flex-1,
@@ -99,13 +120,6 @@ nav a:active {
 hr {
     border: 0.5em solid;
     border-color: gray;
-}
-
-img {
-    width: 100%;
-    border-top: 0.1em solid;
-    border-bottom: 0.1em solid;
-    border-color: ghostwhite;
 }
 
 footer {
